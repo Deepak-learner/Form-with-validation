@@ -1,0 +1,108 @@
+
+.formHeading {
+    background-color: #637a91;
+    border: 2px solid #637a91;
+    color: #ffff;
+    padding: 15px;
+    text-align: center;
+}
+
+.inputHeading {
+    display: flex;
+    padding-bottom: "18px";
+    font-family: Verdana, sans-serif;
+}
+
+.button {
+    background-color: #5fcf80;
+    color: #ffff;
+    float: center;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    text-align: center;
+    width: 92%;    
+}
+
+p {
+    font-size: 10px;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+
+input {
+    border-radius: 5px solid #E1D9D1;
+    background-color: #E1D9D1;
+    margin-top: 4%; 
+    padding: 5px;
+    width: 200px;
+}
+
+div.button {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #e51;
+}
+
+i {
+    margin: 10px;
+}
+
+form { 
+    width: 660px; 
+    padding-top: 0;
+    margin: auto;
+    border: solid black 1px;	
+    border-radius: 5px;  
+    box-shadow: 5px 5px 2px #888;
+}
+
+.textBox2 {
+    margin: 4%;
+    margin-left: 25%;
+}
+
+.textBox1 {
+    margin: 4%;
+}
+
+#invalidEmail {
+  color:red;
+}
+
+#invalidPassword {
+  color:red;
+}
+
+#invalidFirstName {
+  color:red;
+}
+
+#invalidLastName {
+  color:red;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+form {
+    width: 450px;
+}
+
+input {
+    width: 95%;
+}
+  
+.inputHeading {
+    display: flex;
+    flex-direction: column;
+}
+
+.textBox1, .textBox2 {
+    margin: 4%;
+    margin-left: 4%;
+  }
+}
